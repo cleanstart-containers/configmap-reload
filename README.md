@@ -4,30 +4,19 @@ The CleanStart Configmap-Reload image provides a production-ready, security-hard
 
 📌 **Base Foundation**: Production-ready container from cleanstart.
 
-**Image Path**: `ghcr.io/cleanstart-containers/configmap-reload`
+**Image Path**: `ghcr.io/cleanstart-containers/configmap-reload:latest`
+
 **Registry**: cleanstart Registry
-
-## Key Features
-Core capabilities and strengths of this container
-
-
-
-## Common Use Cases
-Typical scenarios where this container excels
-
 
 
 ## Pull Latest Image
 Download the container image from the registry
 
 ```bash
-docker pull ghcr.io/cleanstart-containers/configmap-reload:configmap-reload
+docker pull ghcr.io/cleanstart-containers/configmap-reload:latest
 ```
 ```bash
-docker pull ghcr.io/cleanstart-containers/configmap-reload:container
-```
-```bash
-docker pull ghcr.io/cleanstart-containers/configmap-reload:enterprise
+docker pull ghcr.io/cleanstart-containers/configmap-reload:latest-dev
 ```
 
 ## Basic Run
@@ -67,10 +56,6 @@ Configuration options available through environment variables
 |----------|---------|-------------|
 | ENV | production | Environment mode |
 | LOG_LEVEL | info | Logging level |
-
-## Security Best Practices
-Recommended security configurations and practices
-
 
 
 ## Kubernetes Security Context
